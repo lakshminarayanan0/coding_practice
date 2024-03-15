@@ -1,0 +1,639 @@
+[
+	{
+	"_id" : "fruits & vegetables",
+	"products" : [
+		{
+			"_id" : "6566ca8d521014a328137dff",
+			"name" : "watermelon in kg",
+			"stock_quantity" : 280,
+			"price" : "44.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e00",
+			"name" : "cucumber in kg",
+			"stock_quantity" : 400,
+			"price" : "39.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e01",
+			"name" : "onion in kg",
+			"stock_quantity" : 290,
+			"price" : "40.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e02",
+			"name" : "potato in kg",
+			"stock_quantity" : 299,
+			"price" : "38.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e03",
+			"name" : "ladys finger in kg",
+			"stock_quantity" : 300,
+			"price" : "70.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e04",
+			"name" : "beans in kg",
+			"stock_quantity" : 300,
+			"price" : "60.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e59",
+			"name" : "apple",
+			"stock_quantity" : 100,
+			"price" : "240.00"
+		}
+	]
+},
+{
+	"_id" : "groceries",
+	"products" : [
+		{
+			"_id" : "6566ca8d521014a328137e0e",
+			"name" : "rice in quintol100kg",
+			"stock_quantity" : 1000,
+			"price" : "2790.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e0f",
+			"name" : "lays",
+			"stock_quantity" : 2449,
+			"price" : "10.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e10",
+			"name" : "milky bar",
+			"stock_quantity" : 2000,
+			"price" : "10.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e11",
+			"name" : "dry grapes in kg",
+			"stock_quantity" : 496,
+			"price" : "248.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e12",
+			"name" : "badam in kg",
+			"stock_quantity" : 500,
+			"price" : "703.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e13",
+			"name" : "marie gold",
+			"stock_quantity" : 979,
+			"price" : "20.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e14",
+			"name" : "50-50",
+			"stock_quantity" : 376,
+			"price" : "30.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e15",
+			"name" : "yippee",
+			"stock_quantity" : 496,
+			"price" : "64.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e16",
+			"name" : "shakthi masala",
+			"stock_quantity" : 798,
+			"price" : "37.89"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e17",
+			"name" : "lion dates in kg",
+			"stock_quantity" : 300,
+			"price" : "280.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e4d",
+			"name" : "bingo",
+			"stock_quantity" : 1000,
+			"price" : "5.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e56",
+			"name" : "plate",
+			"stock_quantity" : 1000,
+			"price" : "25.00"
+		}
+	]
+},
+{
+	"_id" : "sports",
+	"products" : [
+		{
+			"_id" : "6566ca8d521014a328137e24",
+			"name" : "cricket bat",
+			"stock_quantity" : 100,
+			"price" : "2090.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e25",
+			"name" : "stumper ball",
+			"stock_quantity" : 458,
+			"price" : "33.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e26",
+			"name" : "cosco ball",
+			"stock_quantity" : 90,
+			"price" : "60.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e27",
+			"name" : "nivea football",
+			"stock_quantity" : 92,
+			"price" : "708.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e28",
+			"name" : "badminton rockets",
+			"stock_quantity" : 100,
+			"price" : "3900.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e29",
+			"name" : "volley ball",
+			"stock_quantity" : 147,
+			"price" : "2300.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e2a",
+			"name" : "skipping rope",
+			"stock_quantity" : 492,
+			"price" : "430.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e2b",
+			"name" : "wrist band",
+			"stock_quantity" : 500,
+			"price" : "130.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e2c",
+			"name" : "running shoes",
+			"stock_quantity" : 998,
+			"price" : "2480.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e4c",
+			"name" : "racing helmet",
+			"stock_quantity" : 500,
+			"price" : "3200.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e5f",
+			"name" : "shoe lays",
+			"stock_quantity" : 1000,
+			"price" : "89.00"
+		}
+	]
+},
+{
+	"_id" : "dairy products",
+	"products" : [
+		{
+			"_id" : "6566ca8d521014a328137e05",
+			"name" : "curd in litre",
+			"stock_quantity" : 980,
+			"price" : "70.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e07",
+			"name" : "butter in kg",
+			"stock_quantity" : 292,
+			"price" : "619.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e08",
+			"name" : "cheese in kg",
+			"stock_quantity" : 241,
+			"price" : "536.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e09",
+			"name" : "milk rusk in 250g",
+			"stock_quantity" : 690,
+			"price" : "40.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e0a",
+			"name" : "palkova in 250g",
+			"stock_quantity" : 400,
+			"price" : "140.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e0b",
+			"name" : "whey protein in kg",
+			"stock_quantity" : 698,
+			"price" : "1534.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e50",
+			"name" : "milk in litre",
+			"stock_quantity" : 700,
+			"price" : "50.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e55",
+			"name" : "ice cream",
+			"stock_quantity" : 99,
+			"price" : "110.00"
+		}
+	]
+},
+{
+	"_id" : "garments",
+	"products" : [
+		{
+			"_id" : "6566ca8d521014a328137e2d",
+			"name" : "hoodie",
+			"stock_quantity" : 996,
+			"price" : "2090.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e2e",
+			"name" : "track pants",
+			"stock_quantity" : 1000,
+			"price" : "600.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e2f",
+			"name" : "polo tshirts",
+			"stock_quantity" : 1000,
+			"price" : "708.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e30",
+			"name" : "adidas shirt",
+			"stock_quantity" : 998,
+			"price" : "900.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e31",
+			"name" : "allen sully trousers",
+			"stock_quantity" : 498,
+			"price" : "2320.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e32",
+			"name" : "saree",
+			"stock_quantity" : 500,
+			"price" : "1430.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e33",
+			"name" : "chudidhar",
+			"stock_quantity" : 491,
+			"price" : "1300.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e34",
+			"name" : "nightie",
+			"stock_quantity" : 1000,
+			"price" : "880.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e51",
+			"name" : "lycra pants",
+			"stock_quantity" : 1000,
+			"price" : "799.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e57",
+			"name" : "towel",
+			"stock_quantity" : 600,
+			"price" : "399.00"
+		}
+	]
+},
+{
+	"_id" : "furniture",
+	"products" : [
+		{
+			"_id" : "6566ca8d521014a328137e21",
+			"name" : "dressing table",
+			"stock_quantity" : 98,
+			"price" : "27789.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e22",
+			"name" : "sofa",
+			"stock_quantity" : 90,
+			"price" : "38900.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e23",
+			"name" : "dining table",
+			"stock_quantity" : 39,
+			"price" : "43300.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e54",
+			"name" : "cot",
+			"stock_quantity" : 98,
+			"price" : "23567.00"
+		}
+	]
+},
+{
+	"_id" : "electronics",
+	"products" : [
+		{
+			"_id" : "6566ca8d521014a328137e06",
+			"name" : "smartwatch",
+			"stock_quantity" : 494,
+			"price" : "4500.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e0c",
+			"name" : "Samsung LED TV",
+			"stock_quantity" : 75,
+			"price" : "30000.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e0d",
+			"name" : "lenova ideapad 3",
+			"stock_quantity" : 98,
+			"price" : "60999.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e18",
+			"name" : "casio scientific calculator",
+			"stock_quantity" : 995,
+			"price" : "1200.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e19",
+			"name" : "vivo t2x 5g",
+			"stock_quantity" : 499,
+			"price" : "13000.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e1a",
+			"name" : "redmi note 11 pro",
+			"stock_quantity" : 399,
+			"price" : "19000.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e1b",
+			"name" : "boat blutooth speaker",
+			"stock_quantity" : 697,
+			"price" : "2789.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e1c",
+			"name" : "asus vivobook",
+			"stock_quantity" : 100,
+			"price" : "47900.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e1d",
+			"name" : "zebronics wireless mouse",
+			"stock_quantity" : 499,
+			"price" : "1200.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e1e",
+			"name" : "dell keyboard wired",
+			"stock_quantity" : 499,
+			"price" : "1703.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e1f",
+			"name" : "5 in one charger",
+			"stock_quantity" : 996,
+			"price" : "480.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e20",
+			"name" : "pendrive 12gb",
+			"stock_quantity" : 200,
+			"price" : "2130.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e4f",
+			"name" : "rolex watch",
+			"stock_quantity" : 15,
+			"price" : "78079.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e5a",
+			"name" : "drone",
+			"stock_quantity" : 90,
+			"price" : "54000.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e5b",
+			"name" : "drone",
+			"stock_quantity" : 90,
+			"price" : "54000.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e5c",
+			"name" : "drone",
+			"stock_quantity" : 90,
+			"price" : "54000.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e5d",
+			"name" : "drone",
+			"stock_quantity" : 90,
+			"price" : "54000.00"
+		}
+	]
+},
+{
+	"_id" : "accessories",
+	"products" : [
+		{
+			"_id" : "6566ca8d521014a328137e35",
+			"name" : "hairband",
+			"stock_quantity" : 999,
+			"price" : "290.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e36",
+			"name" : "wrist watch",
+			"stock_quantity" : 500,
+			"price" : "3300.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e37",
+			"name" : "sunglasses",
+			"stock_quantity" : 1000,
+			"price" : "900.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e38",
+			"name" : "cheppals",
+			"stock_quantity" : 1000,
+			"price" : "788.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e39",
+			"name" : "ear rings",
+			"stock_quantity" : 1000,
+			"price" : "980.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e3a",
+			"name" : "chain",
+			"stock_quantity" : 497,
+			"price" : "180.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e4e",
+			"name" : "temper glass",
+			"stock_quantity" : 1000,
+			"price" : "100.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e52",
+			"name" : "lenova laptop bag",
+			"stock_quantity" : 150,
+			"price" : "1500.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e53",
+			"name" : "key chain",
+			"stock_quantity" : 200,
+			"price" : "25.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e58",
+			"name" : "lock and key",
+			"stock_quantity" : 2000,
+			"price" : "200.00"
+		}
+	]
+},
+{
+	"_id" : "beverages",
+	"products" : [
+		{
+			"_id" : "6566ca8d521014a328137e3b",
+			"name" : "black tea",
+			"stock_quantity" : 130,
+			"price" : "15.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e3c",
+			"name" : "tea",
+			"stock_quantity" : 500,
+			"price" : "25.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e3d",
+			"name" : "coffee",
+			"stock_quantity" : 1000,
+			"price" : "30.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e3e",
+			"name" : "soda",
+			"stock_quantity" : 1000,
+			"price" : "38.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e3f",
+			"name" : "lime",
+			"stock_quantity" : 997,
+			"price" : "30.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e40",
+			"name" : "sweet beer",
+			"stock_quantity" : 895,
+			"price" : "120.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e41",
+			"name" : "coke",
+			"stock_quantity" : 500,
+			"price" : "60.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e42",
+			"name" : "mocktails",
+			"stock_quantity" : 500,
+			"price" : "160.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e43",
+			"name" : "tata gulcose",
+			"stock_quantity" : 992,
+			"price" : "10.00"
+		}
+	]
+},
+{
+	"_id" : "pharmacy",
+	"products" : [
+		{
+			"_id" : "6566ca8d521014a328137e44",
+			"name" : "bandages",
+			"stock_quantity" : 977,
+			"price" : "40.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e45",
+			"name" : "ig paint",
+			"stock_quantity" : 500,
+			"price" : "34.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e46",
+			"name" : "tissue paper",
+			"stock_quantity" : 1000,
+			"price" : "320.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e47",
+			"name" : "paracetomal",
+			"stock_quantity" : 990,
+			"price" : "10.00"
+		}
+	]
+},
+{
+	"_id" : "stationaries",
+	"products" : [
+		{
+			"_id" : "6566ca8d521014a328137e48",
+			"name" : "pen",
+			"stock_quantity" : 898,
+			"price" : "12.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e49",
+			"name" : "pencil",
+			"stock_quantity" : 500,
+			"price" : "6.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e4a",
+			"name" : "scale",
+			"stock_quantity" : 500,
+			"price" : "15.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e4b",
+			"name" : "note",
+			"stock_quantity" : 469,
+			"price" : "35.00"
+		},
+		{
+			"_id" : "6566ca8d521014a328137e5e",
+			"name" : "A4 sheet in quire",
+			"stock_quantity" : 1000,
+			"price" : "120.00"
+		}
+	]
+}
+]

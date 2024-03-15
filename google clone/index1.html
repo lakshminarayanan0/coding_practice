@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google clone</title>
+    <link rel="icon" type="image/icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="section1">
+        <div id="hamburger" onclick="menuDisplay()" title="main menu">
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+       
+        </div>
+    
+        <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r5.png" alt="gmail logo" width="100px" height="40px" style="margin-right: 10px; height: 37px;">
+    </div>
+    
+    <div class="section2">
+    
+        <div id="searchbar">
+        <span class="search-icon icons material-symbols-outlined" title="search" onclick="window.print()">
+            search
+            </span>
+    
+        <input type="text" id="search" placeholder="Search mails">
+    
+        <span class="tune-icon icons material-symbols-outlined" title="show search options">
+            tune
+            </span>
+        </div>
+    </div>
+    
+    <div class="section3">
+    
+        <span class="icons material-symbols-outlined" title="support">
+            help
+            </span>
+        <span class="icons material-symbols-outlined" title="settings">
+            settings
+            </span>
+            <span class="icons material-symbols-outlined" title="Google apps">
+                apps
+                </span>
+            <span id="account-icon" title="Google Account">
+             L
+            </span>
+    </div>
+    
+    </header>
+    <div class="popup">
+        <div class="older"><p>oldest</p></div>
+        <div class="newer"><p>newest</p></div>
+    </div>
+    
+
+<aside id="left-only-icons" class="left">
+    <div id="left-icon-part1">
+        <div id="compose-icon">
+            <span class="material-symbols-outlined">
+                edit
+                </span>
+                <span id="name">compose</span>
+        </div>
+    </div>
+          
+    <div id="left-icon-part2">
+           <div class="options-only-icon">
+            
+                <div class="option-icon " title="inbox">
+                   <div class="name-only-icon active"> <div><span class="material-symbols-outlined right-icons"  >inbox</span></div> <div id="name">Inbox</div><div class="count">2769</div> </div>
+                </div>
+                <div class="option-icon " title="starred">
+                <div class="name-only-icon"> <div><span class="material-symbols-outlined right-icons" >star</span></div><div id="name">Starred</div><div class="count"></div> </div>
+                </div>
+                <div class="option-icon" title="schedule">
+                   <div class="name-only-icon">  <div><span class="material-symbols-outlined right-icons">schedule</span></div> <div id="name">Snoozed</div><div class="count"></div> </div>
+                    </div>
+                <div class="option-icon "title="sent">
+                <div class="name-only-icon"> <div><span class="material-symbols-outlined right-icons"> draft</span></div> <div id="name">Sent</div><div class="count">14</div> </div> 
+                </div>
+                <div class="option-icon more" title="more">
+                    <div class="name-only-icon "> <div><span class="material-symbols-outlined right-icons" >expand_more</span></div><div id="name" class="more-name">More</div><div class="count"></div> </div>
+                </div>
+
+                <div class="option-icon more-icons" title="Important">
+                    <div class="name-only-icon "> <div><span class="material-symbols-outlined right-icons"  >label_important</span></div> <div id="name">Important</div><div class="count"></div> </div>
+                 </div>
+                 <div class="option-icon more-icons" title="Chats">
+                 <div class="name-only-icon"> <div><span class="material-symbols-outlined right-icons" >chat</span></div><div id="name">Chats</div><div class="count"></div> </div>
+                 </div>
+                 <div class="option-icon more-icons" title="Scheduled">
+                    <div class="name-only-icon">  <div><span class="material-symbols-outlined right-icons">schedule_send</span></div> <div id="name">Scheduled</div><div class="count"></div> </div>
+                     </div>
+                 <div class="option-icon more-icons"title="All Mail">
+                 <div class="name-only-icon"> <div><span class="material-symbols-outlined right-icons"> stacked_email</span></div> <div id="name">All Mail</div><div class="count"></div> </div> 
+                 </div>
+                 <div class="option-icon more-icons" title="Spam">
+                     <div class="name-only-icon"> <div><span class="material-symbols-outlined right-icons" >report</span></div><div id="name">Spam</div><div class="count"></div> </div>
+                 </div>
+                 <div class="option-icon more-icons" title="Bin">
+                    <div class="name-only-icon "> <div><span class="material-symbols-outlined right-icons"  >delete</span></div> <div id="name">Bin</div><div class="count"></div> </div>
+                 </div>
+                 <div class="option-icon more-icons" title="Categories">
+                 <div class="name-only-icon"> <div><span class="material-symbols-outlined right-icons" >category</span></div><div id="name">Categories</div><div class="count"></div> </div>
+                 </div>
+                 <div class="option-icon more-icons" title="Manage Labels">
+                    <div class="name-only-icon">  <div><span class="material-symbols-outlined right-icons">settings</span></div> <div id="name">Manage Labels</div><div class="count"></div> </div>
+                     </div>
+                 <div class="option-icon more-icons"title="create new labels">
+                 <div class="name-only-icon"> <div><span class="material-symbols-outlined right-icons"> add</span></div> <div id="name">create new label</div><div class="count"></div> </div> 
+                 </div>
+                
+
+        
+            </div>
+   </div>     
+        
+    <div id="left-icon-part3">
+            <div class="label">
+                
+                   <div class="label-items">
+                    <span id="label-name">Labels</span>
+                    <span id="label-icon" class="icons material-symbols-outlined" title="create more labels">add</span>
+                   </div> 
+               
+            </div>
+    </div>   
+        </aside>
+    
+    <aside id="right">
+        <div class="image-icons">
+        <div class="image">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.zyFci6puomV_HKTJLJlXOgHaHa&pid=Api&P=0&h=180" alt="calendar" width="25px" height="25px" title="calendar">
+    
+        </div>
+        <div class="image">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.r7PfyuFosBpUCmzn2yKKDgAAAA&pid=Api&P=0&h=180" alt="keep" width="25px" height="25px" title="keep">
+    
+        </div>
+        <div class="image">
+            <img src="https://icon-library.com/images/completed-icon/completed-icon-6.jpg" alt="task" width="25px" height="25px" title="tasks">
+    
+        </div>
+        <div class="image">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.4asgnBDK_Gjfrxr0TBs49QHaHa&pid=Api&P=0&h=180" alt="contact" width="25px" height="25px" title="contacts">
+        </div>
+    </div>
+    
+    <div class="add">
+    <span id="label-icon" class="icons material-symbols-outlined" title="Get-addons">add</span>
+    
+    </div>
+    
+    
+    </aside>
+    <div class="hide">
+        <span class="hide-icon icons material-symbols-outlined" title="hide side pannel">
+            chevron_right
+            </span>
+        </div>
+
+        <section class="section">
+            <div id="top">
+                <div class="top1">
+                    <div class="select" title="select">
+                    <input type="checkbox" id="select-all">
+                    <span class="select-icon material-symbols-outlined">
+                        arrow_drop_down
+                        </span>
+            
+                    </div>
+            
+                        <span class="icons material-symbols-outlined" title="refresh" style="font-size: 18px;">
+                            refresh
+                            </span>
+                            <span class="icons material-symbols-outlined" title="more" style="font-size: 18px;">
+                                more_vert
+                                </span>
+                </div>
+                
+                <div class="mailcount"><span>1-50 of 3,070</span></div>
+            
+                <div class="top2">
+                    <span class="icons disabled material-symbols-outlined" title="fewer" >
+                        chevron_left
+                        </span>
+                        <span class="icons material-symbols-outlined" title="older">
+                            chevron_right
+                            </span>
+                </div>
+            </div>
+        
+            <div class="mail-section">
+            
+               <div class="navbar">
+                <div class="nav current"> 
+                    <span class="nav-icon material-symbols-outlined">
+                    inbox
+                    </span> <span style="font-size: 15px;">Primary</span></div>
+                <div class="nav">
+                    <span class="nav-icon material-symbols-outlined">
+                            sell
+                    </span><span style="font-size: 15px;">Promotions</span></div>
+                <div class="nav">
+                    <span class="nav-icon material-symbols-outlined">
+                                group
+                    </span><span style="font-size: 15px;">Social</span></div>
+                </div>
+               
+              
+
+
+               <div class="mailarea">
+
+                <div class="mails">
+            
+
+                    </div>
+                </div>
+                
+            
+                <footer>
+                    <div class="storage">
+                     <progress id="file" value="33" max="100" style="font-size: 15px;"></progress>
+                     <div>
+                       <a  href="#">5.23 GB of 15 GB used</a><span class="material-symbols-outlined" style="cursor: pointer;font-size: 15px;">
+                           share_windows
+                           </span>
+               
+                       </div>
+                    </div>
+                    <div class="terms">
+                      <span><a href="#">Terms</a> </span> · <span><a href="#">Privacy</a></span> · <span><a href="#">Programme Policies</a></span>
+                    </div>
+                    <div class="activity">
+                       <div class="activity-status">
+                     <span>Last account activity: 35 minutes ago</span>
+                   </div>
+                   <div class="details">
+                     <a href="#">Details</a>
+                   </div>
+                    </div>
+                  </footer>
+                    
+            </div>
+                
+                
+                 
+            </div>
+            
+              
+          
+        </section>
+    
+   
+
+    <article id="compose-box">
+        <div id="compose-head">
+            <h3>New compose</h3>
+            <div class="buttons">
+                <div class="button"><span class="material-symbols-outlined">
+                    minimize
+                    </span></div>
+                <div class="button"><span class="material-symbols-outlined">
+                    width
+                    </span></div>
+                <div class="button close-button"><span class="material-symbols-outlined">
+                    close
+                    </span></div>
+            </div>
+        </div>
+
+        <div class="compose-section">
+            <div><label>To</label><input type="text" id="reciever"></div>
+            <div><label>subject</label><input type="text" id="subject"></div>
+            <textarea placeholder="compose mail" name="mail" id="content" ></textarea>
+        </div>
+
+       <button id="send">send</button>
+
+
+    </article>
+    
+    <script src="/index.js">
+    </script>
+</body>
+</html>

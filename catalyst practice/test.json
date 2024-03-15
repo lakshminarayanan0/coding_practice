@@ -1,0 +1,98 @@
+{
+    "project_details": {
+      "project_type": "Live",
+      "id": "1721000000006015",
+      "project_name": "Project-Rainfall"
+    },
+    "event_bus_details": { "name": "Default", "id": "1721000000006026" },
+    "data": {
+      "project_details": {
+        "project_type": "Live",
+        "id": "1721000000006015",
+        "project_name": "Project-Rainfall"
+      },
+      "folder_details": "1721000000022001",
+      "created_time": "Feb 09, 2024 12:38 PM",
+      "file_location": null,
+      "modified_time": "Feb 09, 2024 12:38 PM",
+      "file_name": "Screenshot from 2024-02-07 18-53-22.png",
+      "modified_by": {
+        "email_id": "lakshminarayanan.r@chakraa.io",
+        "user_type": "Admin",
+        "user_id": "1721000000006004",
+        "is_confirmed": false,
+        "last_name": "R",
+        "first_name": "Lakshmi Narayanan",
+        "zuid": 826463675
+      },
+      "id": "1721000000055134",
+      "created_by": {
+        "email_id": "lakshminarayanan.r@chakraa.io",
+        "user_type": "Admin",
+        "user_id": "1721000000006004",
+        "is_confirmed": false,
+        "last_name": "R",
+        "first_name": "Lakshmi Narayanan",
+        "zuid": 826463675
+      },
+      "file_size": 66485
+    },
+    "action": "Upload",
+    "source_entity_id": "1721000000022001",
+    "source": "Filestore",
+    "event_time": "1707462521983"
+  }
+  
+  
+  {
+      "project_details": {
+        "project_type": "Live",
+        "id": "1721000000035025",
+        "project_name": "myApp"
+      },
+      "event_bus_details": { "name": "Default", "id": "1721000000035036" },
+      "data": [
+        {
+          "orders": {
+            "CREATORID": "1721000000006004",
+            "MODIFIEDTIME": "2024-02-09 13:03:04:725",
+            "total": 125,
+            "orderedBy": "1721000000039036",
+            "CREATEDTIME": "2024-02-08 18:11:57:636",
+            "ROWID": "1721000000055068",
+            "status": "delivered"
+          }
+        }
+      ],
+      "action": "Update",
+      "source_entity_id": "1721000000045056",
+      "source": "Datastore",
+      "event_time": "1707463984744"
+    }
+  
+  
+  {
+    "project_details": {
+      "project_type": "Live",
+      "id": "1721000000006015",
+      "project_name": "Project-Rainfall"
+    },
+    "event_bus_details": { "name": "Default", "id": "1721000000006026" },
+    "data": {
+      "cache_name": "name",
+      "cache_value": "Narayanan",
+      "project_details": {
+        "project_type": "Live",
+        "id": "1721000000006015",
+        "project_name": "Project-Rainfall"
+      },
+      "ttl_in_milliseconds": 172800000,
+      "segment_details": { "segment_name": "users", "id": "1721000000010009" },
+      "expiry_in_hours": 48,
+      "expires_in": "Feb 11, 2024 03:15 PM"
+    },
+    "action": "Put",
+    "source_entity_id": "1721000000010009",
+    "source": "Cache",
+    "event_time": "1707471918684"
+  }

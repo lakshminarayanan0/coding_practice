@@ -1,0 +1,6 @@
+name: dart_practice
+dependencies:
+  http: ^1.1.2
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'

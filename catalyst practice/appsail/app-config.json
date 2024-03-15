@@ -1,0 +1,11 @@
+{
+	"command": "node index.js",
+	"buildPath": "/home/narayanan-002/Desktop/practice codes/catalyst practice/appsail",
+	"stack": "node18",
+	"env_variables": {},
+	"memory": 256,
+	"scripts": {},
+	"execution":{
+		"main":"index.js"
+	}
+}

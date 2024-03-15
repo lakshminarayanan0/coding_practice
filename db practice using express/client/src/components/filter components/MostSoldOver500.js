@@ -1,0 +1,26 @@
+import React from 'react'
+
+function MostSoldOver500({products}) {
+  return (
+    <table className="table m-0 text-left">
+    <thead className='sticky-top'>
+      <tr>
+        <th scope="col">Product ID</th>
+        <th scope="col">Product Name</th>
+        <th scope="col">Category</th>
+        <th scope="col">Total sold</th>
+      </tr>
+    </thead>
+    <tbody id="rows">
+     {
+        
+        products.map(product=>{
+         return  ( <tr key={product.product_id}><td>{product.product_id}</td><td>{product.name}</td><td>{product.category}</td><td>{product.total_sold}</td></tr>)
+        })
+     }
+    </tbody>
+  </table>
+    )
+}
+
+export default MostSoldOver500

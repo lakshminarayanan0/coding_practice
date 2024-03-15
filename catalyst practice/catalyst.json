@@ -1,0 +1,22 @@
+{
+  "functions": {
+    "targets": [
+      "project_rainfall_function",
+      "authpractice",
+      "demoStart",
+      "fileStoreDemo",
+      "cacheDemo"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "appsail": [
+    {
+      "source": "appsail",
+      "name": "AppSail"
+    }
+  ],
+  "client": {
+    "source": "client"
+  }
+}

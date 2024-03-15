@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <h3>Welcome ${user.username}</h3>
+
+    <ul>
+        <li>username: ${user.username}</li>
+        <li>username: ${user.phone}</li>
+        <li>username: ${user.email}</li>
+
+    </ul>
+
+    <button onclick="logout()">log out</button>
+
+    <div>
+        <button onclick="getData(e)" data-func="mostSold">most sold</button>
+        <button onclick="getData(e)" data-func="unsold">unsold</button>
+        <button onclick="getData(e)" data-func="over500">over 500</button>
+        <button onclick="getData(e)" data-func="over50000">over50000</button>
+        <button onclick="getData(e)" data-func="topsalestoday">top sales today</button>
+        <button onclick="getData(e)" data-func="topsalesbycustomer">top sales (month)</button>
+        <button onclick="getData(e)" data-func="electronics">electronics</button>
+
+    </div>
+    <div class="container">
+       
+    </div>
+
+    <script>
+        function getData(e){
+            const list=["unsold","electronics","topsalestoday","mostsold","over500","over50000","topsalesbycustomer"]
+            let inp=e.target.getAttributes("data-func");
+            list.forEach(item=>{
+                if(inp===item){
+                    fetch("http://localhost:8000/"+item)
+                    .then(res=>{
+                        if(res.ok){
+                           return res.json()
+                        }
+                    })
+                    .then(data=>{
+                        const con=document.querySelector(".container")
+                        con.innerHTML=JSON.stringify(data)
+
+                    }).catch(err=>console.log(err))
+                }
+            })
+
+        }
+
+
+        function logout(){
+              fetch("http://localhost:8000/logout")
+              .then(res=>res.json())
+              .then(data=>{
+                console.log(data);
+                window.location.href='/signin';
+              }).catch(err=>{
+                console.log(err);
+              })
+
+        }
+    </script>
+    </body>
+</html>
